@@ -1,7 +1,7 @@
 MICHELLE LEVESQUE — SELECTED WORK
 
 DEFAULT PASSWORD
-makingworkwork
+helloThere!!
 
 WHAT IS INCLUDED
 - index.html — password-protected portfolio page
