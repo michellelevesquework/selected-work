@@ -54,7 +54,7 @@ footer{padding:54px 0 70px;border-top:1px solid var(--border)}.footer-grid{displ
 <div class="modal" id="case-modal"><div class="modal-card"><button class="close" aria-label="Close">×</button><div class="kicker" id="modal-kicker"></div><h2 id="modal-title" style="font-size:44px;letter-spacing:-.05em;margin:10px 0"></h2><p id="modal-summary" style="font-size:18px;color:var(--gray);line-height:1.6"></p><div class="case-detail"><div><strong>The challenge</strong><span id="modal-challenge"></span></div><div><strong>My role</strong><span id="modal-role"></span></div><div><strong>The approach</strong><span id="modal-approach"></span></div><div><strong>Impact</strong><span id="modal-impact"></span></div></div></div></div>
 <script src="links.js"></script>
 <script>
-const PASSWORD_HASH='523125f820ae17e46f7655dca9c2a85d659a8d54aded5e21546aaec310d97c58';
+const PASSWORD_HASH='3e6b6e77e9936a27550362531a746eefe4985108cf3ecc8f4fbf607be48dba01';
 async function sha(s){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
 function unlock(){document.getElementById('gate').style.display='none';sessionStorage.setItem('mlPortfolioAccess','1')}
 if(sessionStorage.getItem('mlPortfolioAccess')==='1')unlock();
