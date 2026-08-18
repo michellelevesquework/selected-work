@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../lib/fonts/9ccgIvYCZezzToG-.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../lib/fonts/Zz6IyumtVfFSraOx.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../lib/fonts/INZPMhFc-_r9nvLT.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
